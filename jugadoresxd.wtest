@@ -1,0 +1,9 @@
+import jugadores.*
+describe "testo jugador" {
+  test "la cotizacion tiene que ser 20" {
+    
+    const messi = new Jugador(monto = 5, nombre = "messi")
+    assert.equals(25, messi.cotizacion())
+    
+  }
+}
